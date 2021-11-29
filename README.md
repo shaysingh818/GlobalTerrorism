@@ -13,5 +13,5 @@ Using the amount of people harmed/killed and the property value, we can cluster 
 ## Named Entity Recognition
 With the given data set, there is a large portion of text data that wasn't looked at in previous kaggle competitions/reasearch. Using the SPACY NLP library, we can use the EN_CORE module to detect parts of speech to extract information such as people involved, locations, political figures etc. The novelty with this is that we can get more information about the targets in the attack. The dataset only supplies locations/institutes for the target type. With Named Entity Recognition, we can narrow down the targets by extracting people/names involved in the attack. 
 
-
- 
+## Knowledge Graphs
+Ever wonder how google knows what you're looking for before you even search it? Well part of that is accredited to Knowledge graphs. Using knowledge graphs we can use the Graph Data structure to visualize the relationships between words. We use the nodes in the graph as subjects/verbs and the edges as our "action" adjectives. Using this algorithm we can see common patterns in the language data like mapping cardinal values to property damage, associating people/organizations with action words like "attack", "Victim" or mapping terrorist groups to locations. Overall, this algorithm was implemented to get a birds eye view of the language data in the terrorist attack notes summary. 
